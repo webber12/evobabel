@@ -1,0 +1,16 @@
+{
+    "name": "webber12/evobabel",
+    "description": "EvoBabel for evocms 3.x",
+    "autoload": {
+        "psr-4": {
+            "EvolutionCMS\\EvoBabel\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "EvolutionCMS\\EvoBabel\\EvoBabelServiceProvider"
+            ]
+        }
+    }
+}
